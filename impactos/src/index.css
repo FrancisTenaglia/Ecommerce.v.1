@@ -1,0 +1,24 @@
+.estiloWidget{   
+    margin: 20px;
+}
+/* Estilo Promociones*/
+
+.contenedorPromociones{
+    background-color: gray;
+}
+.estiloFila{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+/*Estilo footer */
+
+.containerFooter{
+    background-color: rgb(211, 203, 203);
+}
+.redesSociales{
+    display: flex;
+    padding: 10px;   
+}
