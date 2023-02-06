@@ -6,6 +6,7 @@
 .contenedorPromociones{
     background-color: gray;
 }
+
 .estiloFila{
     display: flex;
     flex-direction: column;
@@ -21,4 +22,10 @@
 .redesSociales{
     display: flex;
     padding: 10px;   
+}
+
+/* estilo navbar*/
+
+.estiloBtnCarrito{
+    background-color: rgb(213, 205, 205);
 }
