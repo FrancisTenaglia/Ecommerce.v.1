@@ -1,5 +1,6 @@
 import NavBar from "./components/NavBar";
 import Promociones from "./components/Promociones";
+import ItemListContainer from "./components/ItemListContainer";
 import Footer from "./components/Footer";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
       <NavBar/>;
       <Promociones/>;
+      <ItemListContainer mensaje={"Sitio en construcción"}/>
       <Footer /> 
 
     </div>

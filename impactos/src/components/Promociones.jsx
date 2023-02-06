@@ -7,14 +7,14 @@ const Promociones = () => {
     return( 
 
         <div className="contenedorPromociones">
-            <div className="estiloFila">
+            <div className="estiloFila estiloImagenesPromo">
                 <img src={destacado1} alt="destacado1"/>
             </div>
-            <div className="estiloFila">
+            <div className="estiloFila estiloImagenesPromo">
                 <img src={destacado2} alt="destacado2" />
 
             </div>
-            <div className="estiloFila">
+            <div className="estiloFila estiloImagenesPromo">
                 <img src={destacado3} alt="destacado3" />
             </div>                
         </div>
