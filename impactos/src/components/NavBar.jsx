@@ -1,10 +1,11 @@
 import logo from "./images/logo.png";
 import CartWidget from "./CartWidget";
+import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
     return(
         <div className="contenedorNavbar">
-            <a className="navbar-brand " href="#"><img src={logo} alt="Impactos" width={300}/></a>
+            <Link className="navbar-brand " to={"/"}><img src={logo} alt="Impactos" width={300}/></Link>
             <nav className="navbar navbar-expand-lg bg-white">
                 
                 <div className="container-fluid">
@@ -14,25 +15,25 @@ const NavBar = () => {
                     </button>
                     <div className="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li className="nav-item">
-                            <a className="nav-link seccionactual">HOME</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="./"> <b>SOBRE NOSOTROS</b></a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="./"><b>PROMOCIONES</b></a>
-                        </li>
-           
-                        <li className="nav-item">
-                            <a className="nav-link" href="./"><b>INDUMENTARIA</b></a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="./"><b>CALZADOS</b></a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="./"><b>SALE</b></a>
-                        </li>
+                            <li className="nav-item">
+                                <NavLink className="nav-link seccionactual" activeClassName={"active"} to={"/"}>HOME</NavLink>
+                            </li>
+                            <li className="nav-item">
+                                <NavLink className="nav-link" activeClassName={"active"} to={"/category/ropa"}> <b>Ropa</b></NavLink>
+                            </li>
+                            <li className="nav-item">
+                                <NavLink className="nav-link" activeClassName={"active"} to={"/category/calzados"}><b>Calzados</b></NavLink>
+                            </li>
+            
+                            <li className="nav-item">
+                                <NavLink className="nav-link" activeClassName={"active"} to={"/category/accesorios"}><b>Accesorios</b></NavLink>
+                            </li>
+                            <li className="nav-item">
+                                <NavLink className="nav-link" activeClassName={"active"} to={"/category/marketplace"}><b>Marketplace</b></NavLink>
+                            </li>
+                            <li className="nav-item">
+                                <NavLink className="nav-link" to={"*"}><b>Sobre Nosotros</b></NavLink>
+                            </li>
                         </ul>                
                     </div>
                     

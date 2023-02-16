@@ -1,0 +1,23 @@
+[
+    {"index": 1,"descripcion":"Buzo oscuro", "talle":"s", "categoria":"ropa","imagen":"/imagProductos/buzo1.jpg"
+    , "stock":7, "precio":5999, "name":"buzos"},
+    {"index": 2,"descripcion":"Buzo claro", "talle":"m", "categoria":"ropa","imagen":"/imagProductos/buzo2.jpg", "stock":5, "precio":5999, "name":"buzos"},
+    {"index": 3,"descripcion":"Buzo negro", "talle":"xs", "categoria":"ropa","imagen":"/imagProductos/buzo3.jpg", "stock":1, "precio":5999, "name":"buzos"},
+    {"index": 4,"descripcion":"Buzo azul", "talle":"L", "categoria":"ropa","imagen":"/imagProductos/buzo4.jpg", "stock":3, "precio":5999, "name":"buzos"},
+    {"index": 5,"descripcion":"Zandalia blanca", "talle":"36", "categoria":"calzados","imagen":"/imagProductos/calzado1.jpg", "stock":5, "precio":5999, "name":"zapatos"},
+    {"index": 6,"descripcion":"Zapato negro", "talle":"37", "categoria":"calzados","imagen":"/imagProductos/calzado2.jpg", "stock":10, "precio":5999, "name":"zapatos"},
+    {"index": 7,"descripcion":"Zapato marron", "talle":"38", "categoria":"calzados","imagen":"/imagProductos/calzado3.jpg", "stock":9, "precio":5999, "name":"zapatos"},
+    {"index": 8,"descripcion":"Zapato clarito", "talle":"39", "categoria":"calzados","imagen":"/imagProductos/calzado4.jpg", "stock":17, "precio":5999, "name":"zapatos"},
+    {"index": 9,"descripcion":"Cartera marron", "talle":"1", "categoria":"accesorios","imagen":"/imagProductos/cartera1.jpg", "stock":27, "precio":5999, "name":"carteras"},
+    {"index": 10,"descripcion":"Cartera roja", "talle":"2", "categoria":"accesorios","imagen":"/imagProductos/cartera2.jpg", "stock":14, "precio":5999, "name":"carteras"},
+    {"index": 11,"descripcion":"Cartera clarita", "talle":"2", "categoria":"accesorios","imagen":"/imagProductos/cartera3.jpg", "stock":32, "precio":5999, "name":"carteras"},
+    {"index": 12,"descripcion":"Cartera rosa", "talle":"1", "categoria":"accesorios","imagen":"/imagProductos/cartera4.jpg", "stock":11, "precio":5999, "name":"carteras"},
+    {"index": 13,"descripcion":"Vestido verde", "talle":"4", "categoria":"ropa","imagen":"/imagProductos/vestido1.jpg", "stock":5, "precio":5999, "name":"vestidos"},
+    {"index": 14,"descripcion":"Vestido clarito", "talle":"3", "categoria":"ropa","imagen":"/imagProductos/vestido2.jpg", "stock":8, "precio":5999, "name":"vestidos"},
+    {"index": 15,"descripcion":"Vestido negro", "talle":"1", "categoria":"ropa","imagen":"/imagProductos/vestido3.jpg", "stock":3, "precio":5999, "name":"vestidos"},
+    {"index": 16,"descripcion":"Vestido rosa", "talle":"1", "categoria":"ropa","imagen":"/imagProductos/vestido4.jpg", "stock":2, "precio":5999, "name":"vestidos"},
+    {"index": 17,"descripcion":"Remera leopardo", "talle":"s", "categoria":"ropa","imagen":"/imagProductos/remera1.jpg", "stock":7, "precio":5999, "name":"remeras"},
+    {"index": 18,"descripcion":"Remera blanca con letras", "talle":"xs", "categoria":"ropa", "imagen":"/imagProductos/remera2.jpg", "stock":6, "precio":5999, "name":"remeras"},
+    {"index": 19,"descripcion":"Remera negra", "talle":"xm", "categoria":"ropa","imagen":"/imagProductos/remera3.jpg", "stock":18, "precio":5999, "name":"remeras"},
+    {"index": 20,"descripcion":"Remera blanca", "talle":"s", "categoria":"ropa","imagen":"/imagProductos/remera4.jpg", "stock":21, "precio":5999, "name":"remeras"}
+]
