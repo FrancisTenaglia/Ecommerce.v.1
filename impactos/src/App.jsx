@@ -17,7 +17,7 @@ function App() {
           <Route path={"/"} element={<ItemListContainer />} />
           <Route path={"/category/:id"} element={<ItemListContainer />} />
           <Route path={"/item/:id"} element={<ItemDetailContainer />} />
-          <Route path={"/category/:id"} element={<FetchMlListContainer />} />
+          <Route path={"/catmarketplace/:marketplace"} element={<FetchMlListContainer />} />
           <Route path={"*"} element={<Error404 />} />
         </Routes>        
         <Footer />

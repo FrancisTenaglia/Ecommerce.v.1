@@ -4,18 +4,18 @@ import FetchMlList from "./FetchMlList";
 
 const FetchMlListContainer = () => {
     const [items, setItems] = useState([]);
-    const {id} = useParams();
+    const {marketplace} = useParams();
 
 
 
     useEffect(() => {
-        fetch("https://api.mercadolibre.com/sites/MLA/search?q=cascos%20 &limit=18")
+        fetch("https://api.mercadolibre.com/sites/MLA/search?q=indumentaria%20 &limit=18")
         .then((respuesta)=> respuesta.json())
         .then((data) => {
             setItems(data.results);
         })
 
-    }, [id]);
+    }, [marketplace]);
 
     return(
         <div className="container">

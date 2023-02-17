@@ -6,6 +6,7 @@
 .estiloFila{
     background-color: gray;
     margin-bottom: 20px;
+    overflow-x: hidden;
 }
 
 /*Estilo footer */
@@ -22,4 +23,10 @@
 
 .estiloBtnCarrito{
     background-color: rgb(213, 205, 205);
+}
+
+/* ITEMS DETAIL*/
+.ContenedorItemDetail{
+    background-color: green;
+    
 }
