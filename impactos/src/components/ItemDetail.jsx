@@ -4,9 +4,9 @@ const ItemDetail = ({item}) => {
     
     return(
         <div className="container">
-            <div className="row my-5">
-                <div className="col d-flex align-items-center justify-content-end ContenedorItemDetail">
-                    <img src={item.imagen} alt={item.nombre} />                    
+            <div className="row my-5 d-flex align-items-center">
+                <div className="col d-flex align-items-center justify-content-end">
+                    <img className="tamImagItemDetail" src={item.imagen} alt={item.nombre} />                    
                 </div>
                 <div className="col d-flex align-items-center">
                     <div className="">

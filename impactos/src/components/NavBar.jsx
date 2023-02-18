@@ -4,9 +4,9 @@ import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
     return(
-        <div className=" row">
-            <Link className="navbar-brand " to={"/"}><img src={logo} alt="Impactos" width={300}/></Link>
-            <nav className="navbar navbar-expand-lg bg-white">
+        <div className="row">
+            <Link className="navbar-brand" to={"/"}><img src={logo} alt="Impactos" width={200}/></Link>
+            <nav className="navbar navbar-expand-lg bg-light">
                 
                 <div className="container-fluid">
                     

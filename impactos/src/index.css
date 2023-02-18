@@ -1,6 +1,9 @@
-.estiloWidget{   
-    margin: 20px;
+.mainContainer{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
 }
+
 /* Estilo Promociones*/
 
 .estiloFila{
@@ -25,8 +28,22 @@
     background-color: rgb(213, 205, 205);
 }
 
+.estiloWidget{   
+    margin: 20px;
+}
+
 /* ITEMS DETAIL*/
-.ContenedorItemDetail{
-    background-color: green;
-    
+
+.tamImagItemDetail{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+}
+
+/* Estilo imagenes Item*/
+
+.probandoo{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
 }
