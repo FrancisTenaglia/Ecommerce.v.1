@@ -4,13 +4,13 @@ import Promociones from "./components/Promociones";
 import ItemListContainer from "./components/ItemListContainer";
 import Footer from "./components/Footer";
 import ItemDetailContainer from "./components/ItemDetailContainer";
-import Error404 from "./components/Error404";
+import SobreNosotros from "./components/SobreNosotros";
 import FetchMlListContainer from "./components/FetchMlListContainer";
 
 function App() {
   return (
     <BrowserRouter>
-      <div>
+      <div className="mainContainer">
         <NavBar />
         <Promociones />
         <Routes>
@@ -18,7 +18,7 @@ function App() {
           <Route path={"/category/:id"} element={<ItemListContainer />} />
           <Route path={"/item/:id"} element={<ItemDetailContainer />} />
           <Route path={"/catmarketplace/:marketplace"} element={<FetchMlListContainer />} />
-          <Route path={"*"} element={<Error404 />} />
+          <Route path={"*"} element={<SobreNosotros />} />
         </Routes>        
         <Footer />
       </div>

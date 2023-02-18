@@ -9,7 +9,7 @@ const FetchMlListContainer = () => {
 
 
     useEffect(() => {
-        fetch("https://api.mercadolibre.com/sites/MLA/search?q=indumentaria%20 &limit=18")
+        fetch("https://api.mercadolibre.com/sites/MLA/search?q=vestidos%20 &limit=50")
         .then((respuesta)=> respuesta.json())
         .then((data) => {
             setItems(data.results);
