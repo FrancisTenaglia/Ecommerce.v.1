@@ -6,13 +6,16 @@ import Footer from "./components/Footer";
 import ItemDetailContainer from "./components/ItemDetailContainer";
 import SobreNosotros from "./components/SobreNosotros";
 import FetchMlListContainer from "./components/FetchMlListContainer";
-
+import Suscripcion from "./components/Suscripcion";
+import IconWpp from "./components/IconWpp";
 function App() {
   return (
     <BrowserRouter>
       <div className="mainContainer">
         <NavBar />
+        <IconWpp />
         <Promociones />
+        <Suscripcion />
         <Routes>
           <Route path={"/"} element={<ItemListContainer />} />
           <Route path={"/category/:id"} element={<ItemListContainer />} />
