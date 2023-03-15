@@ -1,7 +1,6 @@
-
-import dest1 from "./images/dest1.JPG"
-import dest2 from "./images/dest2.JPG"
-import dest3 from "./images/dest3.JPG"
+import dest1 from "./images/dest1.JPG";
+import dest2 from "./images/dest2.JPG";
+import dest3 from "./images/dest3.JPG";
 
 const Promociones = () => {
     return( 
@@ -17,5 +16,6 @@ const Promociones = () => {
             </div>
         </div>        
     );
-}
+};
+
 export default Promociones;

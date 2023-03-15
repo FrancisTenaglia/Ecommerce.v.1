@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import facebook from "./images/facebook.svg"
 import instagram from "./images/instagram.svg"
 import whatsapp from "./images/whatsapp.svg"
+
 const Footer =() =>{
     return(
         <div className=" row containerFooter">
@@ -9,7 +10,7 @@ const Footer =() =>{
                 <div className="redesSociales">
                     <a href="/"className="ms-3"><img src={facebook} alt="facebook"width={24} /></a>
                     <a href="/"className="ms-3"><img src={instagram} alt="instagram" width={24}/></a>
-                    <a href="/"className="ms-3"><img src={whatsapp} alt="whatsapp"width={24} /></a>
+                    <a href="https://api.whatsapp.com/send?phone=2235446640&text=Hola, aqui te comunicaras con la tienda online" target={"_blank"} rel={"noreferrer"} className="ms-3"><img src={whatsapp} alt="whatsapp"width={24} /></a>
 
                 </div>
                 <div className="col2 text-end">
@@ -37,13 +38,10 @@ const Footer =() =>{
                             <NavLink className="nav-link text-secondary" to={"/"}>HOME</NavLink>
                         </li>
                     </ul>
-
                 </div> <br />
-                <div className="col2">
-                    
-                </div>
             </div>
         </div>
     );
 };
+
 export default Footer;   
