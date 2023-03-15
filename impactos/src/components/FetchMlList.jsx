@@ -10,8 +10,8 @@ const FetchMlList = ({items}) => {
                 ))
             }
         </div>
-    )
-}
+    );
+};
 
 export default FetchMlList;
 

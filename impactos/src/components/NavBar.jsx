@@ -16,35 +16,32 @@ const NavBar = () => {
                     <div className="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <NavLink className="nav-link seccionactual" activeClassName={"active"} to={"/"}>HOME</NavLink>
+                                <NavLink className={({isActive}) => (isActive? 'nav-link' : 'nav-link')} to={"/"}>HOME</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" activeClassName={"active"} to={"/category/ropa"}> <b>Ropa</b></NavLink>
+                                <NavLink className={({isActive}) => (isActive? 'nav-link' : 'nav-link')} to={"/category/ropa"}> <b>Ropa</b></NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" activeClassName={"active"} to={"/category/calzados"}><b>Calzados</b></NavLink>
-                            </li>
-            
-                            <li className="nav-item">
-                                <NavLink className="nav-link" activeClassName={"active"} to={"/category/accesorios"}><b>Accesorios</b></NavLink>
+                                <NavLink className={({isActive}) => (isActive? 'nav-link' : 'nav-link')} to={"/category/calzados"}><b>Calzados</b></NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" activeClassName={"active"} to={"/catmarketplace/marketplace"}><b>Marketplace</b></NavLink>
+                                <NavLink className={({isActive}) => (isActive? 'nav-link' : 'nav-link')} to={"/category/accesorios"}><b>Accesorios</b></NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to={"*"}><b>Sobre Nosotros</b></NavLink>
+                                <NavLink className={({isActive}) => (isActive? 'nav-link' : 'nav-link')} to={"/marketplace"}><b>Marketplace</b></NavLink>
+                            </li>
+                            <li className="nav-item">
+                                <NavLink className={({isActive}) => (isActive? 'nav-link' : 'nav-link')} to={"/sobre-nosotros"}><b>Sobre Nosotros</b></NavLink>
                             </li>
                         </ul>                
                     </div>
-                    
                     <div className="estiloWidget">
                         <CartWidget/>
                     </div>
                 </div>
-                
             </nav>
         </div>
     );
-}
+};
 
-export default NavBar
+export default NavBar;
