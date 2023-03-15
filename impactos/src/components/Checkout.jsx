@@ -25,6 +25,18 @@ const Checkout = () => {
                         total:cartSum()
         };
 
+        if(nombre.length ===0 ){
+            return(false);
+        };
+
+        if(email.length ===0 ){
+            return(false);
+        };
+
+        if(telefono.length ===0 ){
+            return(false);
+        };
+
         const db = getFirestore();
         const ordersCollection = collection(db, "orders");
         addDoc(ordersCollection, order).then(data => {
